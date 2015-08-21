@@ -37,6 +37,19 @@ a.facebook_link:hover {
 	border-radius: 15px 15px 15px 15px;
 }
 
+#float-contact-window{
+    background:     455162;
+    width:          250px;
+    height:         400px;
+    position:       fixed;
+    top:            50px;
+    left:           100;
+    border-radius:  20%
+    border-style:   inset;
+    border-color:   black;
+    box-shadow:     5px 5px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 #animation {
 	background-color: /* #455162 */ rgba(61,89,98,0.45); /* Background color */
 	position: relative;
