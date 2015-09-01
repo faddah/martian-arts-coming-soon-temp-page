@@ -204,6 +204,6 @@ function resize() {
 // jQuery Countdown styles 1.6.1. - plugin by Keith Wood
 function counter_start() {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 0, 9 - 1, 17); // Examples: (austDay.getFullYear() + 1, 3 - 1, 6) or (2013, 3 - 1, 6)
+	austDay = new Date(austDay.getFullYear() + 0, 9 - 1, 23); // Examples: (austDay.getFullYear() + 1, 3 - 1, 6) or (2013, 3 - 1, 6)
 	$("#defaultCountdown").countdown({until: austDay, format: 'DHMS'});
 }

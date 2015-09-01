@@ -1,3 +1,6 @@
+# 0.1.0 (25-Aug.-2015)
+re-did z-index order so address dialogue in top left was not covered over by background color overlay; phone and e-mail in address dialogue in top left now clickable and will go to phone or e-mail handling program; facebook icon correctly links to Martian Arts facebook page. <iframe> for Google Map in address dialogue in top left shows and is clickable; added left padding for text in address dialogue and for <iframe> for Google Map.
+
 # 0.0.1d (21-Aug.-2015)
 added this CHANGELOG.md - will try a tool to help automate it.
 

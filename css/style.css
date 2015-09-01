@@ -2,6 +2,7 @@
 /* CSS Document */
 
 html {
+  z-index: -5;
   background: url(../images/bg-pic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,10 +11,11 @@ html {
 }
 
 html, body{
+  z-index: -4;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-  background-color:  /* #455162 */ rgba(61,89,98,0.45);  /* Red used for testing */
+  background-color:  /* #455162 */ rgba(61,89,98,0.3);  /* Red used for testing */
 }
 a {
 	padding: 0 3px 0 3px;
@@ -38,12 +40,13 @@ a.facebook_link:hover {
 }
 
 #float-contact-window{
+    z-index:          1;
     background-color: #455162;
-    width:            250px;
-    height:           400px;
+    width:            300px;
+    height:           auto;
     position:         fixed;
-    top:              50px;
-    left:             100px;
+    top:              25px;
+    left:             25px;
     border-radius:    25px;
     border-style:     inset;
     border-color:     black;
@@ -51,7 +54,7 @@ a.facebook_link:hover {
 }
 
 #animation {
-	background-color: /* #455162 */ rgba(61,89,98,0.45); /* Background color */
+	background-color: /* #455162 */ rgba(61,89,98,0.3); /* Background color */
 	position: relative;
 }
 #counter {
@@ -81,6 +84,7 @@ a.facebook_link:hover {
 }
 #txt3 {
   margin-left: 5px;
+  padding-left: 0.5em;
 	float:       left;
 	width:       auto;
 	font-family: 'Roboto', sans-serif;
@@ -88,6 +92,9 @@ a.facebook_link:hover {
 	line-height: 1.5;
 	color:       white;
 	text-align:  left;
+}
+iframe {
+  padding-left: 0.25em;
 }
 
 /* jQuery Countdown styles 1.6.1. - plugin by Keith Wood */
